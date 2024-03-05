@@ -1,0 +1,43 @@
+.intro-bg {
+    background: #000000;
+    box-shadow: inset 0 -120px #fff ;
+}
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    
+}
+
+.intro-conteudo {
+    align-self: end;
+    padding-bottom: 200px;
+
+}
+
+.intro img {
+    height: 100%;
+    object-fit:cover;
+    border-radius: 4px;
+}
+
+.intro h1{
+    margin-bottom: 32px;
+}
+
+.intro h1 span {
+    color:#ffb000 ;
+}
+.intro p{
+    margin-bottom: 20px;
+     
+}
+
+@media (max-width: 1200px) {
+    .intro h1 {
+        font-size: 48px;
+    }
+    .intro p {
+        font-size: 18px;
+    }
+}
